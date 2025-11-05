@@ -1,0 +1,17 @@
+{
+    "id": "c12f738a-94f6-4dc6-857e-5e18b4a590b8",
+    "scriptName": "防剧透正则2",
+    "findRegex": "/以上是([\\s\\S]*?)</plot>/gsi",
+    "replaceString": " ",
+    "trimStrings": [],
+    "placement": [
+        1
+    ],
+    "disabled": false,
+    "markdownOnly": true,
+    "promptOnly": true,
+    "runOnEdit": true,
+    "substituteRegex": 0,
+    "minDepth": 1,
+    "maxDepth": 30
+}
